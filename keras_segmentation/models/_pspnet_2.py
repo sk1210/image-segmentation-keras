@@ -9,8 +9,9 @@ from keras.layers.merge import Concatenate, Add
 from keras.models import Model
 from keras.optimizers import SGD
 
-from keras.backend import tf as ktf
+#from keras.backend import tf as ktf
 import tensorflow as tf
+ktf = tf
 
 
 from .config import IMAGE_ORDERING
